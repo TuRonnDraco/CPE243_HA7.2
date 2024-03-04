@@ -1,0 +1,20 @@
+---
+-  hosts: Control
+   become: true
+   tasks:
+
+     -  name: Update Repository Index
+        apt:
+          update_cache: yes
+        when: ansible_distribution == "Ubuntu"
+
+     -  name: Fetching Logs
+        fetch:
+           src: "/var/log/{{ item }}"
+           dest: "logs/"
+        with_items:
+           -  syslog
+           -  auth.log
+
+
+

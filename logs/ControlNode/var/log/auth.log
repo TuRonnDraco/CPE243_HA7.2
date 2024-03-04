@@ -1,0 +1,441 @@
+2024-03-04T00:37:02.023322+00:00 seruelas useradd[490]: new group: name=seruelas, GID=1000
+2024-03-04T00:37:02.023324+00:00 seruelas useradd[490]: new user: name=seruelas, UID=1000, GID=1000, home=/home/seruelas, shell=/bin/bash, from=none
+2024-03-04T00:37:02.023326+00:00 seruelas useradd[490]: add 'seruelas' to group 'adm'
+2024-03-04T00:37:02.023327+00:00 seruelas useradd[490]: add 'seruelas' to group 'cdrom'
+2024-03-04T00:37:02.023328+00:00 seruelas useradd[490]: add 'seruelas' to group 'sudo'
+2024-03-04T00:37:02.023330+00:00 seruelas useradd[490]: add 'seruelas' to group 'dip'
+2024-03-04T00:37:02.023331+00:00 seruelas useradd[490]: add 'seruelas' to group 'plugdev'
+2024-03-04T00:37:02.023333+00:00 seruelas useradd[490]: add 'seruelas' to group 'users'
+2024-03-04T00:37:02.023334+00:00 seruelas useradd[490]: add 'seruelas' to group 'lpadmin'
+2024-03-04T00:37:02.023335+00:00 seruelas useradd[490]: add 'seruelas' to shadow group 'adm'
+2024-03-04T00:37:02.023336+00:00 seruelas useradd[490]: add 'seruelas' to shadow group 'cdrom'
+2024-03-04T00:37:02.023337+00:00 seruelas useradd[490]: add 'seruelas' to shadow group 'sudo'
+2024-03-04T00:37:02.023338+00:00 seruelas useradd[490]: add 'seruelas' to shadow group 'dip'
+2024-03-04T00:37:02.023340+00:00 seruelas useradd[490]: add 'seruelas' to shadow group 'plugdev'
+2024-03-04T00:37:02.023342+00:00 seruelas useradd[490]: add 'seruelas' to shadow group 'users'
+2024-03-04T00:37:02.023343+00:00 seruelas useradd[490]: add 'seruelas' to shadow group 'lpadmin'
+2024-03-04T00:37:02.023706+00:00 seruelas systemd-logind[621]: New seat seat0.
+2024-03-04T00:37:02.023711+00:00 seruelas systemd-logind[621]: Watching system buttons on /dev/input/event0 (Power Button)
+2024-03-04T00:37:02.023712+00:00 seruelas systemd-logind[621]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2024-03-04T00:37:02.023713+00:00 seruelas systemd-logind[621]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2024-03-04T00:37:21.790178+00:00 seruelas gdm-launch-environment]: pam_env(gdm-launch-environment:session): deprecated reading of user environment enabled
+2024-03-04T00:37:21.790243+00:00 seruelas gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2024-03-04T00:37:21.820895+00:00 seruelas systemd-logind[621]: New session c1 of user gdm.
+2024-03-04T00:37:21.845655+00:00 seruelas systemd: pam_unix(systemd-user:session): session opened for user gdm(uid=120) by (uid=0)
+2024-03-04T00:37:23.360102+00:00 seruelas polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.40 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2024-03-04T00:38:53.128924+00:00 seruelas gdm-password]: gkr-pam: unable to locate daemon control file
+2024-03-04T00:38:53.129065+00:00 seruelas gdm-password]: gkr-pam: stashed password to try later in open session
+2024-03-04T00:38:53.133263+00:00 seruelas gdm-password]: pam_env(gdm-password:session): deprecated reading of user environment enabled
+2024-03-04T00:38:53.133312+00:00 seruelas gdm-password]: pam_unix(gdm-password:session): session opened for user seruelas(uid=1000) by (uid=0)
+2024-03-04T00:38:53.148375+00:00 seruelas systemd-logind[621]: New session 2 of user seruelas.
+2024-03-04T00:38:53.170305+00:00 seruelas systemd: pam_unix(systemd-user:session): session opened for user seruelas(uid=1000) by (uid=0)
+2024-03-04T00:38:53.395567+00:00 seruelas gdm-password]: gkr-pam: unlocked login keyring
+2024-03-04T00:38:54.078572+00:00 seruelas gnome-keyring-daemon[1677]: The PKCS#11 component was already initialized
+2024-03-04T00:38:54.078683+00:00 seruelas gnome-keyring-daemon[1677]: The Secret Service was already initialized
+2024-03-04T00:38:54.078841+00:00 seruelas gnome-keyring-daemon[1943]: discover_other_daemon: 1
+2024-03-04T00:38:54.079869+00:00 seruelas gnome-keyring-daemon[1945]: discover_other_daemon: 1
+2024-03-04T00:38:54.081519+00:00 seruelas gnome-keyring-daemon[1944]: discover_other_daemon: 1
+2024-03-04T00:38:54.669283+00:00 seruelas polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.72 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2024-03-04T00:38:55.675996+00:00 seruelas gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2024-03-04T00:38:55.682680+00:00 seruelas systemd-logind[621]: Session c1 logged out. Waiting for processes to exit.
+2024-03-04T00:38:55.736212+00:00 seruelas systemd-logind[621]: Removed session c1.
+2024-03-04T00:38:55.746708+00:00 seruelas polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.40, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2024-03-04T00:39:05.851556+00:00 seruelas systemd: pam_unix(systemd-user:session): session closed for user gdm
+2024-03-04T00:39:35.868672+00:00 seruelas sudo: seruelas : TTY=pts/0 ; PWD=/home/seruelas ; USER=root ; COMMAND=/usr/bin/apt upgrade
+2024-03-04T00:39:35.869077+00:00 seruelas sudo: seruelas : TTY=pts/0 ; PWD=/home/seruelas ; USER=root ; COMMAND=/usr/bin/apt update
+2024-03-04T00:39:35.869587+00:00 seruelas sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T00:39:35.870033+00:00 seruelas sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T00:39:36.509249+00:00 seruelas sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T00:39:37.447405+00:00 seruelas sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T00:39:44.172141+00:00 seruelas sudo: seruelas : TTY=pts/0 ; PWD=/home/seruelas ; USER=root ; COMMAND=/usr/bin/apt update
+2024-03-04T00:39:44.172742+00:00 seruelas sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T00:39:45.306080+00:00 seruelas sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T00:39:48.821028+00:00 seruelas sudo: seruelas : TTY=pts/0 ; PWD=/home/seruelas ; USER=root ; COMMAND=/usr/bin/apt upgrade
+2024-03-04T00:39:48.821593+00:00 seruelas sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T00:39:57.237797+00:00 seruelas pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T00:39:57.239123+00:00 seruelas pkexec[3518]: seruelas: Executing command [USER=root] [TTY=unknown] [CWD=/home/seruelas] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2024-03-04T08:43:40.775505+08:00 seruelas sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T08:45:48.740056+08:00 seruelas systemd-logind[621]: The system will reboot now!
+2024-03-04T08:45:48.755021+08:00 seruelas systemd-logind[621]: System is rebooting.
+2024-03-04T08:45:48.784593+08:00 seruelas gdm-password]: pam_unix(gdm-password:session): session closed for user seruelas
+2024-03-04T08:45:49.989954+08:00 seruelas systemd-logind[600]: New seat seat0.
+2024-03-04T08:45:49.989955+08:00 seruelas systemd-logind[600]: Watching system buttons on /dev/input/event0 (Power Button)
+2024-03-04T08:45:49.989957+08:00 seruelas systemd-logind[600]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2024-03-04T08:45:49.989958+08:00 seruelas systemd-logind[600]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2024-03-04T08:45:50.188622+08:00 seruelas gdm-launch-environment]: pam_env(gdm-launch-environment:session): deprecated reading of user environment enabled
+2024-03-04T08:45:50.189116+08:00 seruelas gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2024-03-04T08:45:50.229275+08:00 seruelas systemd-logind[600]: New session c1 of user gdm.
+2024-03-04T08:45:50.256641+08:00 seruelas systemd: pam_unix(systemd-user:session): session opened for user gdm(uid=120) by (uid=0)
+2024-03-04T08:45:51.990473+08:00 seruelas polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.36 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2024-03-04T08:48:24.605447+08:00 seruelas systemd-logind[612]: New seat seat0.
+2024-03-04T08:48:24.605451+08:00 seruelas systemd-logind[612]: Watching system buttons on /dev/input/event0 (Power Button)
+2024-03-04T08:48:24.605454+08:00 seruelas systemd-logind[612]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2024-03-04T08:48:24.605455+08:00 seruelas systemd-logind[612]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2024-03-04T08:48:24.718195+08:00 seruelas gdm-launch-environment]: pam_env(gdm-launch-environment:session): deprecated reading of user environment enabled
+2024-03-04T08:48:24.718688+08:00 seruelas gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2024-03-04T08:48:24.765444+08:00 seruelas systemd-logind[612]: New session c1 of user gdm.
+2024-03-04T08:48:24.802883+08:00 seruelas systemd: pam_unix(systemd-user:session): session opened for user gdm(uid=120) by (uid=0)
+2024-03-04T08:48:26.603749+08:00 seruelas polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.35 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2024-03-04T08:48:38.038628+08:00 seruelas gdm-password]: gkr-pam: unable to locate daemon control file
+2024-03-04T08:48:38.038806+08:00 seruelas gdm-password]: gkr-pam: stashed password to try later in open session
+2024-03-04T08:48:38.042891+08:00 seruelas gdm-password]: pam_env(gdm-password:session): deprecated reading of user environment enabled
+2024-03-04T08:48:38.043729+08:00 seruelas gdm-password]: pam_unix(gdm-password:session): session opened for user seruelas(uid=1000) by (uid=0)
+2024-03-04T08:48:38.061523+08:00 seruelas systemd-logind[612]: New session 2 of user seruelas.
+2024-03-04T08:48:38.091929+08:00 seruelas systemd: pam_unix(systemd-user:session): session opened for user seruelas(uid=1000) by (uid=0)
+2024-03-04T08:48:38.333380+08:00 seruelas gdm-password]: gkr-pam: unlocked login keyring
+2024-03-04T08:48:38.735882+08:00 seruelas gnome-keyring-daemon[1243]: The Secret Service was already initialized
+2024-03-04T08:48:38.736403+08:00 seruelas gnome-keyring-daemon[1392]: discover_other_daemon: 1
+2024-03-04T08:48:38.737694+08:00 seruelas gnome-keyring-daemon[1243]: The PKCS#11 component was already initialized
+2024-03-04T08:48:38.737920+08:00 seruelas gnome-keyring-daemon[1393]: discover_other_daemon: 1
+2024-03-04T08:48:38.750143+08:00 seruelas gnome-keyring-daemon[1394]: discover_other_daemon: 1
+2024-03-04T08:48:39.675955+08:00 seruelas polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.68 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2024-03-04T08:48:41.164313+08:00 seruelas gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2024-03-04T08:48:41.171554+08:00 seruelas systemd-logind[612]: Session c1 logged out. Waiting for processes to exit.
+2024-03-04T08:48:41.202502+08:00 seruelas systemd-logind[612]: Removed session c1.
+2024-03-04T08:48:41.242406+08:00 seruelas polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.35, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2024-03-04T08:48:51.514852+08:00 seruelas systemd: pam_unix(systemd-user:session): session closed for user gdm
+2024-03-04T08:48:53.130049+08:00 seruelas sudo: seruelas : TTY=pts/0 ; PWD=/home/seruelas ; USER=root ; COMMAND=/usr/bin/apt update
+2024-03-04T08:48:53.130370+08:00 seruelas sudo: seruelas : TTY=pts/0 ; PWD=/home/seruelas ; USER=root ; COMMAND=/usr/bin/apt upgrade
+2024-03-04T08:48:53.130807+08:00 seruelas sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T08:48:53.131067+08:00 seruelas sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T08:48:53.665926+08:00 seruelas sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T08:48:57.339881+08:00 seruelas sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T08:49:49.261479+08:00 seruelas sudo: seruelas : TTY=pts/0 ; PWD=/home/seruelas ; USER=root ; COMMAND=/usr/bin/apt install openssh-server
+2024-03-04T08:49:49.262247+08:00 seruelas sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T08:49:59.291357+08:00 seruelas useradd[2568]: new user: name=sshd, UID=124, GID=65534, home=/run/sshd, shell=/usr/sbin/nologin, from=none
+2024-03-04T08:50:03.659461+08:00 seruelas sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T08:51:23.200139+08:00 seruelas sudo: seruelas : TTY=pts/0 ; PWD=/home/seruelas ; USER=root ; COMMAND=/usr/bin/apt instal net-tools
+2024-03-04T08:51:23.201107+08:00 seruelas sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T08:51:23.205591+08:00 seruelas sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T08:51:29.096447+08:00 seruelas sudo: seruelas : TTY=pts/0 ; PWD=/home/seruelas ; USER=root ; COMMAND=/usr/bin/apt install net-tools
+2024-03-04T08:51:29.097270+08:00 seruelas sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T08:51:31.174639+08:00 seruelas sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T08:53:12.946696+08:00 seruelas sudo: seruelas : TTY=pts/0 ; PWD=/home/seruelas ; USER=root ; COMMAND=/usr/bin/apt install ansible
+2024-03-04T08:53:12.947362+08:00 seruelas sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T08:53:47.049671+08:00 seruelas sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T08:58:58.079736+08:00 seruelas sudo: seruelas : TTY=pts/0 ; PWD=/home/seruelas ; USER=root ; COMMAND=/usr/bin/apt install git
+2024-03-04T08:58:58.082329+08:00 seruelas sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T08:59:03.444109+08:00 seruelas sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T09:04:59.902067+08:00 seruelas systemd-logind[612]: The system will power off now!
+2024-03-04T09:04:59.933944+08:00 seruelas systemd-logind[612]: System is powering down.
+2024-03-04T09:13:28.231654+08:00 seruelas systemd-logind[604]: New seat seat0.
+2024-03-04T09:13:28.231655+08:00 seruelas systemd-logind[604]: Watching system buttons on /dev/input/event0 (Power Button)
+2024-03-04T09:13:28.231656+08:00 seruelas systemd-logind[604]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2024-03-04T09:13:28.231658+08:00 seruelas systemd-logind[604]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2024-03-04T09:13:28.570359+08:00 seruelas gdm-launch-environment]: pam_env(gdm-launch-environment:session): deprecated reading of user environment enabled
+2024-03-04T09:13:28.570395+08:00 seruelas gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2024-03-04T09:13:28.600908+08:00 seruelas systemd-logind[604]: New session c1 of user gdm.
+2024-03-04T09:13:28.657640+08:00 seruelas systemd: pam_unix(systemd-user:session): session opened for user gdm(uid=120) by (uid=0)
+2024-03-04T09:13:31.204254+08:00 seruelas polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.36 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2024-03-04T09:14:10.659040+08:00 seruelas gdm-password]: gkr-pam: unable to locate daemon control file
+2024-03-04T09:14:10.659419+08:00 seruelas gdm-password]: gkr-pam: stashed password to try later in open session
+2024-03-04T09:14:10.668809+08:00 seruelas gdm-password]: pam_env(gdm-password:session): deprecated reading of user environment enabled
+2024-03-04T09:14:10.669007+08:00 seruelas gdm-password]: pam_unix(gdm-password:session): session opened for user seruelas(uid=1000) by (uid=0)
+2024-03-04T09:14:10.703561+08:00 seruelas systemd-logind[604]: New session 2 of user seruelas.
+2024-03-04T09:14:10.722022+08:00 seruelas systemd: pam_unix(systemd-user:session): session opened for user seruelas(uid=1000) by (uid=0)
+2024-03-04T09:14:10.986840+08:00 seruelas gdm-password]: gkr-pam: unlocked login keyring
+2024-03-04T09:14:11.481908+08:00 seruelas gnome-keyring-daemon[1277]: The PKCS#11 component was already initialized
+2024-03-04T09:14:11.482226+08:00 seruelas gnome-keyring-daemon[1277]: The Secret Service was already initialized
+2024-03-04T09:14:11.482286+08:00 seruelas gnome-keyring-daemon[1434]: discover_other_daemon: 1
+2024-03-04T09:14:11.482773+08:00 seruelas gnome-keyring-daemon[1432]: discover_other_daemon: 1
+2024-03-04T09:14:11.483011+08:00 seruelas gnome-keyring-daemon[1435]: discover_other_daemon: 1
+2024-03-04T09:14:12.390070+08:00 seruelas polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.69 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2024-03-04T09:14:13.826824+08:00 seruelas gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2024-03-04T09:14:13.830870+08:00 seruelas systemd-logind[604]: Session c1 logged out. Waiting for processes to exit.
+2024-03-04T09:14:13.879842+08:00 seruelas systemd-logind[604]: Removed session c1.
+2024-03-04T09:14:13.974989+08:00 seruelas polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.36, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2024-03-04T09:14:42.957716+08:00 seruelas sudo: seruelas : TTY=pts/0 ; PWD=/home/seruelas ; USER=root ; COMMAND=/usr/bin/nano /etc/hostname
+2024-03-04T09:14:42.958240+08:00 seruelas sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T09:16:19.377349+08:00 seruelas sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T09:16:58.656962+08:00 seruelas sudo: seruelas : TTY=pts/0 ; PWD=/home/seruelas ; USER=root ; COMMAND=/usr/bin/nano /etc/hosts
+2024-03-04T09:16:58.658820+08:00 seruelas sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T09:17:01.749972+08:00 seruelas CRON[2139]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+2024-03-04T09:17:01.757519+08:00 seruelas CRON[2139]: pam_unix(cron:session): session closed for user root
+2024-03-04T09:18:50.712458+08:00 seruelas sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T09:19:52.004888+08:00 seruelas sudo: seruelas : TTY=pts/0 ; PWD=/home/seruelas ; USER=root ; COMMAND=/usr/bin/nano /etc/hosts
+2024-03-04T09:19:52.006095+08:00 seruelas sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T09:20:00.647903+08:00 seruelas sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T09:21:44.978292+08:00 seruelas systemd-logind[604]: The system will reboot now!
+2024-03-04T09:21:45.015618+08:00 seruelas systemd-logind[604]: System is rebooting.
+2024-03-04T09:21:56.770468+08:00 ManageNode systemd-logind[615]: New seat seat0.
+2024-03-04T09:21:56.770469+08:00 ManageNode systemd-logind[615]: Watching system buttons on /dev/input/event0 (Power Button)
+2024-03-04T09:21:56.770472+08:00 ManageNode systemd-logind[615]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2024-03-04T09:21:56.770474+08:00 ManageNode systemd-logind[615]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2024-03-04T09:21:57.080717+08:00 ManageNode gdm-launch-environment]: pam_env(gdm-launch-environment:session): deprecated reading of user environment enabled
+2024-03-04T09:21:57.080758+08:00 ManageNode gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2024-03-04T09:21:57.104069+08:00 ManageNode systemd-logind[615]: New session c1 of user gdm.
+2024-03-04T09:21:57.125301+08:00 ManageNode systemd: pam_unix(systemd-user:session): session opened for user gdm(uid=120) by (uid=0)
+2024-03-04T09:21:59.139022+08:00 ManageNode polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.36 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2024-03-04T09:22:13.095221+08:00 ManageNode gdm-password]: gkr-pam: unable to locate daemon control file
+2024-03-04T09:22:13.095472+08:00 ManageNode gdm-password]: gkr-pam: stashed password to try later in open session
+2024-03-04T09:22:13.108199+08:00 ManageNode gdm-password]: pam_env(gdm-password:session): deprecated reading of user environment enabled
+2024-03-04T09:22:13.108265+08:00 ManageNode gdm-password]: pam_unix(gdm-password:session): session opened for user seruelas(uid=1000) by (uid=0)
+2024-03-04T09:22:13.132009+08:00 ManageNode systemd-logind[615]: New session 2 of user seruelas.
+2024-03-04T09:22:13.156389+08:00 ManageNode systemd: pam_unix(systemd-user:session): session opened for user seruelas(uid=1000) by (uid=0)
+2024-03-04T09:22:13.396002+08:00 ManageNode gdm-password]: gkr-pam: unlocked login keyring
+2024-03-04T09:22:13.899457+08:00 ManageNode gnome-keyring-daemon[1246]: The Secret Service was already initialized
+2024-03-04T09:22:13.899990+08:00 ManageNode gnome-keyring-daemon[1401]: discover_other_daemon: 1
+2024-03-04T09:22:13.900597+08:00 ManageNode gnome-keyring-daemon[1246]: The PKCS#11 component was already initialized
+2024-03-04T09:22:13.923814+08:00 ManageNode gnome-keyring-daemon[1402]: discover_other_daemon: 1
+2024-03-04T09:22:13.927238+08:00 ManageNode gnome-keyring-daemon[1403]: discover_other_daemon: 1
+2024-03-04T09:22:14.707350+08:00 ManageNode polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.68 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2024-03-04T09:22:16.096244+08:00 ManageNode gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2024-03-04T09:22:16.109578+08:00 ManageNode systemd-logind[615]: Session c1 logged out. Waiting for processes to exit.
+2024-03-04T09:22:16.199621+08:00 ManageNode systemd-logind[615]: Removed session c1.
+2024-03-04T09:22:16.218874+08:00 ManageNode polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.36, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2024-03-04T09:22:26.553840+08:00 ManageNode systemd: pam_unix(systemd-user:session): session closed for user gdm
+2024-03-04T09:24:21.035713+08:00 ManageNode sudo: seruelas : TTY=pts/0 ; PWD=/home/seruelas ; USER=root ; COMMAND=/usr/bin/nano /etc/hostname
+2024-03-04T09:24:21.036581+08:00 ManageNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T09:24:26.562746+08:00 ManageNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T09:24:27.881714+08:00 ManageNode systemd-logind[615]: The system will reboot now!
+2024-03-04T09:24:27.899743+08:00 ManageNode systemd-logind[615]: System is rebooting.
+2024-03-04T09:24:27.917961+08:00 ManageNode gdm-password]: pam_unix(gdm-password:session): session closed for user seruelas
+2024-03-04T09:24:37.938443+08:00 ControlNode systemd-logind[613]: New seat seat0.
+2024-03-04T09:24:37.938447+08:00 ControlNode systemd-logind[613]: Watching system buttons on /dev/input/event0 (Power Button)
+2024-03-04T09:24:37.938450+08:00 ControlNode systemd-logind[613]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2024-03-04T09:24:37.938451+08:00 ControlNode systemd-logind[613]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2024-03-04T09:24:38.289454+08:00 ControlNode gdm-launch-environment]: pam_env(gdm-launch-environment:session): deprecated reading of user environment enabled
+2024-03-04T09:24:38.289531+08:00 ControlNode gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2024-03-04T09:24:38.325598+08:00 ControlNode systemd-logind[613]: New session c1 of user gdm.
+2024-03-04T09:24:38.356323+08:00 ControlNode systemd: pam_unix(systemd-user:session): session opened for user gdm(uid=120) by (uid=0)
+2024-03-04T09:24:40.118420+08:00 ControlNode polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.36 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2024-03-04T09:25:16.142098+08:00 ControlNode gdm-password]: gkr-pam: unable to locate daemon control file
+2024-03-04T09:25:16.142238+08:00 ControlNode gdm-password]: gkr-pam: stashed password to try later in open session
+2024-03-04T09:25:16.148499+08:00 ControlNode gdm-password]: pam_env(gdm-password:session): deprecated reading of user environment enabled
+2024-03-04T09:25:16.148676+08:00 ControlNode gdm-password]: pam_unix(gdm-password:session): session opened for user seruelas(uid=1000) by (uid=0)
+2024-03-04T09:25:16.163774+08:00 ControlNode systemd-logind[613]: New session 2 of user seruelas.
+2024-03-04T09:25:16.186786+08:00 ControlNode systemd: pam_unix(systemd-user:session): session opened for user seruelas(uid=1000) by (uid=0)
+2024-03-04T09:25:16.366540+08:00 ControlNode gdm-password]: gkr-pam: unlocked login keyring
+2024-03-04T09:25:16.749205+08:00 ControlNode gnome-keyring-daemon[1267]: The Secret Service was already initialized
+2024-03-04T09:25:16.771814+08:00 ControlNode gnome-keyring-daemon[1413]: discover_other_daemon: 1
+2024-03-04T09:25:16.774781+08:00 ControlNode gnome-keyring-daemon[1267]: The PKCS#11 component was already initialized
+2024-03-04T09:25:16.774975+08:00 ControlNode gnome-keyring-daemon[1414]: discover_other_daemon: 1
+2024-03-04T09:25:16.775806+08:00 ControlNode gnome-keyring-daemon[1415]: discover_other_daemon: 1
+2024-03-04T09:25:17.489326+08:00 ControlNode polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.69 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2024-03-04T09:25:18.926274+08:00 ControlNode gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2024-03-04T09:25:18.940284+08:00 ControlNode systemd-logind[613]: Session c1 logged out. Waiting for processes to exit.
+2024-03-04T09:25:18.980989+08:00 ControlNode systemd-logind[613]: Removed session c1.
+2024-03-04T09:25:19.016364+08:00 ControlNode polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.36, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2024-03-04T09:28:25.612216+08:00 ControlNode sshd[2161]: Server listening on :: port 22.
+2024-03-04T09:28:27.544153+08:00 ControlNode sshd[2162]: Connection closed by authenticating user seruelas 127.0.0.1 port 56498 [preauth]
+2024-03-04T09:28:27.669659+08:00 ControlNode sshd[2169]: Connection closed by authenticating user seruelas 127.0.0.1 port 56500 [preauth]
+2024-03-04T09:28:29.983457+08:00 ControlNode sshd[2182]: Accepted password for seruelas from 127.0.0.1 port 56514 ssh2
+2024-03-04T09:28:29.984995+08:00 ControlNode sshd[2182]: pam_unix(sshd:session): session opened for user seruelas(uid=1000) by (uid=0)
+2024-03-04T09:28:30.008376+08:00 ControlNode systemd-logind[613]: New session 4 of user seruelas.
+2024-03-04T09:28:30.143935+08:00 ControlNode sshd[2182]: pam_env(sshd:session): deprecated reading of user environment enabled
+2024-03-04T09:28:30.166405+08:00 ControlNode sshd[2264]: Received disconnect from 127.0.0.1 port 56514:11: disconnected by user
+2024-03-04T09:28:30.166601+08:00 ControlNode sshd[2264]: Disconnected from user seruelas 127.0.0.1 port 56514
+2024-03-04T09:28:30.167039+08:00 ControlNode sshd[2182]: pam_unix(sshd:session): session closed for user seruelas
+2024-03-04T09:28:30.171761+08:00 ControlNode systemd-logind[613]: Session 4 logged out. Waiting for processes to exit.
+2024-03-04T09:28:31.737628+08:00 ControlNode systemd-logind[613]: Removed session 4.
+2024-03-04T09:28:41.501914+08:00 ControlNode sshd[2402]: Accepted publickey for seruelas from 127.0.0.1 port 44180 ssh2: RSA SHA256:NL0AQhKYlib54HkvL5diUobrxrAeWcRFompxGpelCx4
+2024-03-04T09:28:41.502986+08:00 ControlNode sshd[2402]: pam_unix(sshd:session): session opened for user seruelas(uid=1000) by (uid=0)
+2024-03-04T09:28:41.524535+08:00 ControlNode systemd-logind[613]: New session 5 of user seruelas.
+2024-03-04T09:28:41.598160+08:00 ControlNode sshd[2402]: pam_env(sshd:session): deprecated reading of user environment enabled
+2024-03-04T09:29:13.361305+08:00 ControlNode sshd[2440]: Received disconnect from 127.0.0.1 port 44180:11: disconnected by user
+2024-03-04T09:29:13.361511+08:00 ControlNode sshd[2440]: Disconnected from user seruelas 127.0.0.1 port 44180
+2024-03-04T09:29:13.361695+08:00 ControlNode sshd[2402]: pam_unix(sshd:session): session closed for user seruelas
+2024-03-04T09:29:13.363034+08:00 ControlNode systemd-logind[613]: Session 5 logged out. Waiting for processes to exit.
+2024-03-04T09:29:13.364850+08:00 ControlNode systemd-logind[613]: Removed session 5.
+2024-03-04T09:29:48.113720+08:00 ControlNode sshd[2477]: Connection closed by authenticating user seruelas 192.168.56.103 port 50944 [preauth]
+2024-03-04T09:29:48.243906+08:00 ControlNode sshd[2479]: Connection closed by authenticating user seruelas 192.168.56.103 port 44528 [preauth]
+2024-03-04T09:29:49.944287+08:00 ControlNode sshd[2481]: Accepted password for seruelas from 192.168.56.103 port 44536 ssh2
+2024-03-04T09:29:49.946261+08:00 ControlNode sshd[2481]: pam_unix(sshd:session): session opened for user seruelas(uid=1000) by (uid=0)
+2024-03-04T09:29:49.964667+08:00 ControlNode systemd-logind[613]: New session 6 of user seruelas.
+2024-03-04T09:29:50.027477+08:00 ControlNode sshd[2481]: pam_env(sshd:session): deprecated reading of user environment enabled
+2024-03-04T09:29:50.045074+08:00 ControlNode sshd[2517]: Received disconnect from 192.168.56.103 port 44536:11: disconnected by user
+2024-03-04T09:29:50.046703+08:00 ControlNode sshd[2517]: Disconnected from user seruelas 192.168.56.103 port 44536
+2024-03-04T09:29:50.046735+08:00 ControlNode sshd[2481]: pam_unix(sshd:session): session closed for user seruelas
+2024-03-04T09:29:50.050202+08:00 ControlNode systemd-logind[613]: Session 6 logged out. Waiting for processes to exit.
+2024-03-04T09:29:50.050952+08:00 ControlNode systemd-logind[613]: Removed session 6.
+2024-03-04T09:29:57.961804+08:00 ControlNode sshd[2522]: Accepted publickey for seruelas from 192.168.56.103 port 34186 ssh2: RSA SHA256:3+H/U7r8tvw+zw/pH7i2Jn09t3Sm+0S5/tOE3gBV0Y4
+2024-03-04T09:29:57.963118+08:00 ControlNode sshd[2522]: pam_unix(sshd:session): session opened for user seruelas(uid=1000) by (uid=0)
+2024-03-04T09:29:57.984585+08:00 ControlNode systemd-logind[613]: New session 7 of user seruelas.
+2024-03-04T09:29:58.048265+08:00 ControlNode sshd[2522]: pam_env(sshd:session): deprecated reading of user environment enabled
+2024-03-04T09:30:01.875954+08:00 ControlNode CRON[2571]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+2024-03-04T09:30:01.878807+08:00 ControlNode CRON[2571]: pam_unix(cron:session): session closed for user root
+2024-03-04T09:32:36.211121+08:00 ControlNode sshd[2558]: Received disconnect from 192.168.56.103 port 34186:11: disconnected by user
+2024-03-04T09:32:36.211444+08:00 ControlNode sshd[2558]: Disconnected from user seruelas 192.168.56.103 port 34186
+2024-03-04T09:32:36.212040+08:00 ControlNode sshd[2522]: pam_unix(sshd:session): session closed for user seruelas
+2024-03-04T09:32:36.215720+08:00 ControlNode systemd-logind[613]: Session 7 logged out. Waiting for processes to exit.
+2024-03-04T09:32:36.223458+08:00 ControlNode systemd-logind[613]: Removed session 7.
+2024-03-04T09:48:13.764286+08:00 ControlNode sshd[2606]: Accepted publickey for seruelas from 192.168.56.103 port 58836 ssh2: RSA SHA256:3+H/U7r8tvw+zw/pH7i2Jn09t3Sm+0S5/tOE3gBV0Y4
+2024-03-04T09:48:13.770888+08:00 ControlNode sshd[2606]: pam_unix(sshd:session): session opened for user seruelas(uid=1000) by (uid=0)
+2024-03-04T09:48:13.796534+08:00 ControlNode systemd-logind[613]: New session 9 of user seruelas.
+2024-03-04T09:48:13.883168+08:00 ControlNode sshd[2606]: pam_env(sshd:session): deprecated reading of user environment enabled
+2024-03-04T09:49:14.467078+08:00 ControlNode sshd[2642]: Received disconnect from 192.168.56.103 port 58836:11: disconnected by user
+2024-03-04T09:49:14.467191+08:00 ControlNode sshd[2642]: Disconnected from user seruelas 192.168.56.103 port 58836
+2024-03-04T09:49:14.469071+08:00 ControlNode sshd[2606]: pam_unix(sshd:session): session closed for user seruelas
+2024-03-04T09:49:14.483325+08:00 ControlNode systemd-logind[613]: Session 9 logged out. Waiting for processes to exit.
+2024-03-04T09:49:14.483809+08:00 ControlNode systemd-logind[613]: Removed session 9.
+2024-03-04T10:17:02.010874+08:00 ControlNode CRON[2710]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+2024-03-04T10:17:02.014655+08:00 ControlNode CRON[2710]: pam_unix(cron:session): session closed for user root
+2024-03-04T10:19:23.045249+08:00 ControlNode sshd[2713]: Accepted publickey for seruelas from 192.168.56.103 port 50376 ssh2: RSA SHA256:3+H/U7r8tvw+zw/pH7i2Jn09t3Sm+0S5/tOE3gBV0Y4
+2024-03-04T10:19:23.048314+08:00 ControlNode sshd[2713]: pam_unix(sshd:session): session opened for user seruelas(uid=1000) by (uid=0)
+2024-03-04T10:19:23.064733+08:00 ControlNode systemd-logind[613]: New session 11 of user seruelas.
+2024-03-04T10:19:23.231104+08:00 ControlNode sshd[2713]: pam_env(sshd:session): deprecated reading of user environment enabled
+2024-03-04T10:19:23.595274+08:00 ControlNode sudo: seruelas : TTY=pts/1 ; PWD=/home/seruelas ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-hbqrfkgydyrsfuqcgrfbixtnwhcwclzv ; /usr/bin/python3 /home/seruelas/.ansible/tmp/ansible-tmp-1709518763.242459-3374-233777090242697/AnsiballZ_setup.py'
+2024-03-04T10:19:23.597946+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by seruelas(uid=1000)
+2024-03-04T10:19:24.098226+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T10:19:24.309206+08:00 ControlNode sudo: seruelas : TTY=pts/1 ; PWD=/home/seruelas ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-xsxkmfhkhzludqlkqbyqjyodcnoggrvu ; /usr/bin/python3 /home/seruelas/.ansible/tmp/ansible-tmp-1709518764.1096048-3389-201073929861384/AnsiballZ_apt.py'
+2024-03-04T10:19:24.309768+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by seruelas(uid=1000)
+2024-03-04T10:19:25.965462+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T10:19:26.146369+08:00 ControlNode sudo: seruelas : TTY=pts/1 ; PWD=/home/seruelas ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-zwidhkpgtwawbdfifgstqatdgilsldoe ; /usr/bin/python3 /home/seruelas/.ansible/tmp/ansible-tmp-1709518765.9592795-3398-247727257790275/AnsiballZ_command.py'
+2024-03-04T10:19:26.146958+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by seruelas(uid=1000)
+2024-03-04T10:19:26.228139+08:00 ControlNode sudo:     root : TTY=pts/2 ; PWD=/home/seruelas ; USER=root ; COMMAND=/usr/bin/journalctl -b
+2024-03-04T10:19:26.228643+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by seruelas(uid=0)
+2024-03-04T10:19:26.243815+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T10:19:26.272505+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T10:19:26.509315+08:00 ControlNode sudo: seruelas : TTY=pts/1 ; PWD=/home/seruelas ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-cknpfhzmwkvrietzhwzmqshdqwcqyawh ; /usr/bin/python3 /home/seruelas/.ansible/tmp/ansible-tmp-1709518766.278216-3407-250474879641931/AnsiballZ_file.py'
+2024-03-04T10:19:26.509854+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by seruelas(uid=1000)
+2024-03-04T10:19:26.645964+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T10:19:55.452333+08:00 ControlNode sudo: seruelas : TTY=pts/1 ; PWD=/home/seruelas ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-loxbehztfeqcquewiwqyvzipkdudzfnl ; /usr/bin/python3 /home/seruelas/.ansible/tmp/ansible-tmp-1709518795.1425083-3432-27427195219181/AnsiballZ_setup.py'
+2024-03-04T10:19:55.454365+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by seruelas(uid=1000)
+2024-03-04T10:19:56.175052+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T10:19:56.434515+08:00 ControlNode sudo: seruelas : TTY=pts/1 ; PWD=/home/seruelas ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-krntewrwzyksaqsqnldjugqnlnhhfnsm ; /usr/bin/python3 /home/seruelas/.ansible/tmp/ansible-tmp-1709518796.207238-3443-85532406872578/AnsiballZ_apt.py'
+2024-03-04T10:19:56.435222+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by seruelas(uid=1000)
+2024-03-04T10:19:58.054878+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T10:19:58.304144+08:00 ControlNode sudo: seruelas : TTY=pts/1 ; PWD=/home/seruelas ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-pcohgmgfnhamdasnmwjlmcrywwhdtjhc ; /usr/bin/python3 /home/seruelas/.ansible/tmp/ansible-tmp-1709518798.084539-3452-35703668371295/AnsiballZ_command.py'
+2024-03-04T10:19:58.304625+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by seruelas(uid=1000)
+2024-03-04T10:19:58.450209+08:00 ControlNode sudo:     root : TTY=pts/2 ; PWD=/home/seruelas ; USER=root ; COMMAND=/usr/bin/journalctl -b
+2024-03-04T10:19:58.451108+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by seruelas(uid=0)
+2024-03-04T10:19:58.483628+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T10:19:58.632467+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T10:19:58.843701+08:00 ControlNode sudo: seruelas : TTY=pts/1 ; PWD=/home/seruelas ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-firsqtjaacvtlzcpcqszgjyknrxxswbd ; /usr/bin/python3 /home/seruelas/.ansible/tmp/ansible-tmp-1709518798.6484525-3461-108523074402092/AnsiballZ_file.py'
+2024-03-04T10:19:58.843922+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by seruelas(uid=1000)
+2024-03-04T10:19:58.933256+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T10:20:55.535189+08:00 ControlNode sudo: seruelas : TTY=pts/1 ; PWD=/home/seruelas ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-hmlobnqaafgxjhwqsqbdqqrrlgpcpryc ; /usr/bin/python3 /home/seruelas/.ansible/tmp/ansible-tmp-1709518855.1821742-3540-97747441727568/AnsiballZ_setup.py'
+2024-03-04T10:20:55.536459+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by seruelas(uid=1000)
+2024-03-04T10:20:56.290483+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T10:20:56.520824+08:00 ControlNode sudo: seruelas : TTY=pts/1 ; PWD=/home/seruelas ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-jwztawvgogyibehbnjtulcpdpdfaclvf ; /usr/bin/python3 /home/seruelas/.ansible/tmp/ansible-tmp-1709518856.3097048-3551-236672125091154/AnsiballZ_apt.py'
+2024-03-04T10:20:56.520955+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by seruelas(uid=1000)
+2024-03-04T10:20:58.511362+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T10:20:58.703029+08:00 ControlNode sudo: seruelas : TTY=pts/1 ; PWD=/home/seruelas ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-lzdibceptxzrojynjijnualrraxfafex ; /usr/bin/python3 /home/seruelas/.ansible/tmp/ansible-tmp-1709518858.5108664-3560-231988786079869/AnsiballZ_command.py'
+2024-03-04T10:20:58.703496+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by seruelas(uid=1000)
+2024-03-04T10:20:58.786667+08:00 ControlNode sudo:     root : TTY=pts/2 ; PWD=/home/seruelas ; USER=root ; COMMAND=/usr/bin/journalctl -b
+2024-03-04T10:20:58.786874+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by seruelas(uid=0)
+2024-03-04T10:20:58.802025+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T10:20:58.910087+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T10:20:59.114355+08:00 ControlNode sudo: seruelas : TTY=pts/1 ; PWD=/home/seruelas ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-issczrvtjasudfqjyyokmyssfvvuiyds ; /usr/bin/python3 /home/seruelas/.ansible/tmp/ansible-tmp-1709518858.9163563-3569-151950310240698/AnsiballZ_file.py'
+2024-03-04T10:20:59.119833+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by seruelas(uid=1000)
+2024-03-04T10:20:59.289976+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T10:21:59.372854+08:00 ControlNode sshd[2749]: Received disconnect from 192.168.56.103 port 50376:11: disconnected by user
+2024-03-04T10:21:59.373070+08:00 ControlNode sshd[2749]: Disconnected from user seruelas 192.168.56.103 port 50376
+2024-03-04T10:21:59.373217+08:00 ControlNode sshd[2713]: pam_unix(sshd:session): session closed for user seruelas
+2024-03-04T10:21:59.377076+08:00 ControlNode systemd-logind[613]: Session 11 logged out. Waiting for processes to exit.
+2024-03-04T10:21:59.380078+08:00 ControlNode systemd-logind[613]: Removed session 11.
+2024-03-04T10:22:03.741028+08:00 ControlNode sshd[4020]: Accepted publickey for seruelas from 192.168.56.103 port 34702 ssh2: RSA SHA256:3+H/U7r8tvw+zw/pH7i2Jn09t3Sm+0S5/tOE3gBV0Y4
+2024-03-04T10:22:03.744935+08:00 ControlNode sshd[4020]: pam_unix(sshd:session): session opened for user seruelas(uid=1000) by (uid=0)
+2024-03-04T10:22:03.779668+08:00 ControlNode systemd-logind[613]: New session 12 of user seruelas.
+2024-03-04T10:22:03.931287+08:00 ControlNode sshd[4020]: pam_env(sshd:session): deprecated reading of user environment enabled
+2024-03-04T10:22:04.408203+08:00 ControlNode sudo: seruelas : TTY=pts/1 ; PWD=/home/seruelas ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-ynfrmvsflpdehdlbyukocvrevnomgkjj ; /usr/bin/python3 /home/seruelas/.ansible/tmp/ansible-tmp-1709518924.0105019-3589-14919166514372/AnsiballZ_setup.py'
+2024-03-04T10:22:04.408749+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by seruelas(uid=1000)
+2024-03-04T10:22:04.876487+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T10:22:21.588003+08:00 ControlNode sudo: seruelas : TTY=pts/1 ; PWD=/home/seruelas ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-vkupnoyubowqmglhrpgaalmddkzvlcng ; /usr/bin/python3 /home/seruelas/.ansible/tmp/ansible-tmp-1709518941.3004303-3613-49110728436759/AnsiballZ_setup.py'
+2024-03-04T10:22:21.589004+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by seruelas(uid=1000)
+2024-03-04T10:22:22.312967+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T10:22:22.547022+08:00 ControlNode sudo: seruelas : TTY=pts/1 ; PWD=/home/seruelas ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-qocmrldusahzdcwoaspebmgrikvbenas ; /usr/bin/python3 /home/seruelas/.ansible/tmp/ansible-tmp-1709518942.3239725-3624-37527592779336/AnsiballZ_apt.py'
+2024-03-04T10:22:22.547353+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by seruelas(uid=1000)
+2024-03-04T10:22:24.511609+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T10:22:24.732678+08:00 ControlNode sudo: seruelas : TTY=pts/1 ; PWD=/home/seruelas ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-dezohieibexrjhaqjhmuabupidmwwwds ; /usr/bin/python3 /home/seruelas/.ansible/tmp/ansible-tmp-1709518944.5179925-3633-40845762911806/AnsiballZ_command.py'
+2024-03-04T10:22:24.732833+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by seruelas(uid=1000)
+2024-03-04T10:22:24.886729+08:00 ControlNode sudo:     root : TTY=pts/2 ; PWD=/home/seruelas ; USER=root ; COMMAND=/usr/bin/journalctl -b
+2024-03-04T10:22:24.888557+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by seruelas(uid=0)
+2024-03-04T10:22:24.922508+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T10:22:24.986001+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T10:22:25.276218+08:00 ControlNode sudo: seruelas : TTY=pts/1 ; PWD=/home/seruelas ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-phpylmeptaawcjsvpfjzhguwrjhxfypd ; /usr/bin/python3 /home/seruelas/.ansible/tmp/ansible-tmp-1709518945.0734558-3642-16406550747652/AnsiballZ_file.py'
+2024-03-04T10:22:25.276798+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by seruelas(uid=1000)
+2024-03-04T10:22:25.479403+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T10:23:25.563613+08:00 ControlNode sshd[4056]: Received disconnect from 192.168.56.103 port 34702:11: disconnected by user
+2024-03-04T10:23:25.563955+08:00 ControlNode sshd[4056]: Disconnected from user seruelas 192.168.56.103 port 34702
+2024-03-04T10:23:25.564036+08:00 ControlNode sshd[4020]: pam_unix(sshd:session): session closed for user seruelas
+2024-03-04T10:23:25.570720+08:00 ControlNode systemd-logind[613]: Session 12 logged out. Waiting for processes to exit.
+2024-03-04T10:23:25.570829+08:00 ControlNode systemd-logind[613]: Removed session 12.
+2024-03-04T10:23:34.765331+08:00 ControlNode sshd[4546]: Accepted publickey for seruelas from 192.168.56.103 port 58312 ssh2: RSA SHA256:3+H/U7r8tvw+zw/pH7i2Jn09t3Sm+0S5/tOE3gBV0Y4
+2024-03-04T10:23:34.767261+08:00 ControlNode sshd[4546]: pam_unix(sshd:session): session opened for user seruelas(uid=1000) by (uid=0)
+2024-03-04T10:23:34.789307+08:00 ControlNode systemd-logind[613]: New session 13 of user seruelas.
+2024-03-04T10:23:34.929376+08:00 ControlNode sshd[4546]: pam_env(sshd:session): deprecated reading of user environment enabled
+2024-03-04T10:23:35.271088+08:00 ControlNode sudo: seruelas : TTY=pts/1 ; PWD=/home/seruelas ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-ysurikuhyhccqqzlwwjqzekueczarrcu ; /usr/bin/python3 /home/seruelas/.ansible/tmp/ansible-tmp-1709519014.9756968-3663-182552886620448/AnsiballZ_setup.py'
+2024-03-04T10:23:35.271581+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by seruelas(uid=1000)
+2024-03-04T10:23:36.004649+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T10:23:36.209386+08:00 ControlNode sudo: seruelas : TTY=pts/1 ; PWD=/home/seruelas ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-tgfhkkuctuzjygltadqogaycvqablwfl ; /usr/bin/python3 /home/seruelas/.ansible/tmp/ansible-tmp-1709519016.0057547-3678-235440886901744/AnsiballZ_apt.py'
+2024-03-04T10:23:36.209818+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by seruelas(uid=1000)
+2024-03-04T10:23:37.825000+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T10:23:38.007833+08:00 ControlNode sudo: seruelas : TTY=pts/1 ; PWD=/home/seruelas ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-wnxsccshuiwmbehorajazmcqrfsnajpf ; /usr/bin/python3 /home/seruelas/.ansible/tmp/ansible-tmp-1709519017.8228998-3687-181937783709556/AnsiballZ_command.py'
+2024-03-04T10:23:38.008134+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by seruelas(uid=1000)
+2024-03-04T10:23:38.151987+08:00 ControlNode sudo:     root : TTY=pts/2 ; PWD=/home/seruelas ; USER=root ; COMMAND=/usr/bin/journalctl -b
+2024-03-04T10:23:38.152913+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by seruelas(uid=0)
+2024-03-04T10:23:38.182757+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T10:23:38.218023+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T10:23:38.416277+08:00 ControlNode sudo: seruelas : TTY=pts/1 ; PWD=/home/seruelas ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-djixmzblhgafpmbproeaepvfusblkpvv ; /usr/bin/python3 /home/seruelas/.ansible/tmp/ansible-tmp-1709519018.2177126-3696-136476629561147/AnsiballZ_file.py'
+2024-03-04T10:23:38.416721+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by seruelas(uid=1000)
+2024-03-04T10:23:38.504398+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T10:24:01.756681+08:00 ControlNode sudo: seruelas : TTY=pts/1 ; PWD=/home/seruelas ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-pinkwolmsivrqiazbpvtevuubirquewh ; /usr/bin/python3 /home/seruelas/.ansible/tmp/ansible-tmp-1709519041.4818563-3713-167064109262320/AnsiballZ_setup.py'
+2024-03-04T10:24:01.757102+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by seruelas(uid=1000)
+2024-03-04T10:24:02.376737+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T10:24:02.598118+08:00 ControlNode sudo: seruelas : TTY=pts/1 ; PWD=/home/seruelas ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-kbuwdxylmfehdaxmxnbcudfcqkaahnbe ; /usr/bin/python3 /home/seruelas/.ansible/tmp/ansible-tmp-1709519042.3937798-3724-114306034444103/AnsiballZ_apt.py'
+2024-03-04T10:24:02.598528+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by seruelas(uid=1000)
+2024-03-04T10:24:04.403983+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T10:24:04.591401+08:00 ControlNode sudo: seruelas : TTY=pts/1 ; PWD=/home/seruelas ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-ouesmpzjmfdndknomffgawfsibprwjpf ; /usr/bin/python3 /home/seruelas/.ansible/tmp/ansible-tmp-1709519044.3937085-3733-262574310785878/AnsiballZ_command.py'
+2024-03-04T10:24:04.592206+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by seruelas(uid=1000)
+2024-03-04T10:24:04.741713+08:00 ControlNode sudo:     root : TTY=pts/2 ; PWD=/home/seruelas ; USER=root ; COMMAND=/usr/bin/journalctl -b
+2024-03-04T10:24:04.742455+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by seruelas(uid=0)
+2024-03-04T10:24:04.776823+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T10:24:04.861235+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T10:24:05.106480+08:00 ControlNode sudo: seruelas : TTY=pts/1 ; PWD=/home/seruelas ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-akkyncgpyupbnjfjjjnsdrrisryiiuya ; /usr/bin/python3 /home/seruelas/.ansible/tmp/ansible-tmp-1709519044.912025-3742-214379462840239/AnsiballZ_file.py'
+2024-03-04T10:24:05.106998+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by seruelas(uid=1000)
+2024-03-04T10:24:05.321153+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T10:24:19.511341+08:00 ControlNode sudo: seruelas : TTY=pts/1 ; PWD=/home/seruelas ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-jacrhqzrkklsyurtcvcpqmghokdjujzy ; /usr/bin/python3 /home/seruelas/.ansible/tmp/ansible-tmp-1709519059.2099907-3759-16518778139675/AnsiballZ_setup.py'
+2024-03-04T10:24:19.511971+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by seruelas(uid=1000)
+2024-03-04T10:24:20.057516+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T10:24:20.278384+08:00 ControlNode sudo: seruelas : TTY=pts/1 ; PWD=/home/seruelas ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-zdoictpkkjpjyldvooyrsstrwathpnof ; /usr/bin/python3 /home/seruelas/.ansible/tmp/ansible-tmp-1709519060.0643544-3770-183154598019716/AnsiballZ_apt.py'
+2024-03-04T10:24:20.278561+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by seruelas(uid=1000)
+2024-03-04T10:24:22.085681+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T10:24:22.282520+08:00 ControlNode sudo: seruelas : TTY=pts/1 ; PWD=/home/seruelas ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-nzqcgvrwkojgorommiezkdeaogvsxtep ; /usr/bin/python3 /home/seruelas/.ansible/tmp/ansible-tmp-1709519062.0805192-3779-236668670600915/AnsiballZ_command.py'
+2024-03-04T10:24:22.283016+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by seruelas(uid=1000)
+2024-03-04T10:24:22.363805+08:00 ControlNode sudo:     root : TTY=pts/2 ; PWD=/home/seruelas ; USER=root ; COMMAND=/usr/bin/journalctl -b
+2024-03-04T10:24:22.364283+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by seruelas(uid=0)
+2024-03-04T10:24:22.398721+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T10:24:22.476309+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T10:24:22.702362+08:00 ControlNode sudo: seruelas : TTY=pts/1 ; PWD=/home/seruelas ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-kklpgrbzrnklqvpboqlgbluswgyffbxh ; /usr/bin/python3 /home/seruelas/.ansible/tmp/ansible-tmp-1709519062.498853-3788-158756612965766/AnsiballZ_file.py'
+2024-03-04T10:24:22.702902+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by seruelas(uid=1000)
+2024-03-04T10:24:22.789957+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T10:24:41.709355+08:00 ControlNode sudo: seruelas : TTY=pts/1 ; PWD=/home/seruelas ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-uwwzhfqavwmfducjhbusiwhbfopkprmt ; /usr/bin/python3 /home/seruelas/.ansible/tmp/ansible-tmp-1709519081.417199-3807-192058143554256/AnsiballZ_setup.py'
+2024-03-04T10:24:41.709991+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by seruelas(uid=1000)
+2024-03-04T10:24:42.640414+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T10:24:42.854751+08:00 ControlNode sudo: seruelas : TTY=pts/1 ; PWD=/home/seruelas ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-yzoooxgomjlbgkpcprcafnttefllpxdz ; /usr/bin/python3 /home/seruelas/.ansible/tmp/ansible-tmp-1709519082.650446-3818-144594109051047/AnsiballZ_apt.py'
+2024-03-04T10:24:42.855306+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by seruelas(uid=1000)
+2024-03-04T10:24:44.816491+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T10:24:45.010477+08:00 ControlNode sudo: seruelas : TTY=pts/1 ; PWD=/home/seruelas ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-orzatjfcfdotwmzyaktjvoiquiuvdbvh ; /usr/bin/python3 /home/seruelas/.ansible/tmp/ansible-tmp-1709519084.8092282-3829-192768257908157/AnsiballZ_command.py'
+2024-03-04T10:24:45.010994+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by seruelas(uid=1000)
+2024-03-04T10:24:45.134560+08:00 ControlNode sudo:     root : TTY=pts/2 ; PWD=/home/seruelas ; USER=root ; COMMAND=/usr/bin/journalctl -b
+2024-03-04T10:24:45.135455+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by seruelas(uid=0)
+2024-03-04T10:24:45.177395+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T10:24:45.223340+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T10:24:45.436825+08:00 ControlNode sudo: seruelas : TTY=pts/1 ; PWD=/home/seruelas ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-bixonelewnwsqeumxzwbnfxeqkiioraf ; /usr/bin/python3 /home/seruelas/.ansible/tmp/ansible-tmp-1709519085.2345836-3838-219890453054127/AnsiballZ_file.py'
+2024-03-04T10:24:45.437611+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by seruelas(uid=1000)
+2024-03-04T10:24:45.642948+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T10:25:45.751332+08:00 ControlNode sshd[4582]: Received disconnect from 192.168.56.103 port 58312:11: disconnected by user
+2024-03-04T10:25:45.760396+08:00 ControlNode sshd[4582]: Disconnected from user seruelas 192.168.56.103 port 58312
+2024-03-04T10:25:45.765159+08:00 ControlNode sshd[4546]: pam_unix(sshd:session): session closed for user seruelas
+2024-03-04T10:25:45.766635+08:00 ControlNode systemd-logind[613]: Session 13 logged out. Waiting for processes to exit.
+2024-03-04T10:25:45.771008+08:00 ControlNode systemd-logind[613]: Removed session 13.
+2024-03-04T10:25:52.213989+08:00 ControlNode sshd[6265]: Accepted publickey for seruelas from 192.168.56.103 port 58404 ssh2: RSA SHA256:3+H/U7r8tvw+zw/pH7i2Jn09t3Sm+0S5/tOE3gBV0Y4
+2024-03-04T10:25:52.214451+08:00 ControlNode sshd[6265]: pam_unix(sshd:session): session opened for user seruelas(uid=1000) by (uid=0)
+2024-03-04T10:25:52.239910+08:00 ControlNode systemd-logind[613]: New session 14 of user seruelas.
+2024-03-04T10:25:52.362821+08:00 ControlNode sshd[6265]: pam_env(sshd:session): deprecated reading of user environment enabled
+2024-03-04T10:25:52.651001+08:00 ControlNode sudo: pam_unix(sudo:auth): authentication failure; logname=seruelas uid=1000 euid=0 tty=/dev/pts/1 ruser=seruelas rhost=  user=seruelas
+2024-03-04T10:25:53.321423+08:00 ControlNode sudo: pam_unix(sudo:auth): conversation failed
+2024-03-04T10:25:53.321555+08:00 ControlNode sudo: pam_unix(sudo:auth): auth could not identify password for [seruelas]
+2024-03-04T10:25:53.321590+08:00 ControlNode sudo: seruelas : 1 incorrect password attempt ; TTY=pts/1 ; PWD=/home/seruelas ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-rruvflurqiugkempxoccualjxjrewnnl ; /usr/bin/python3 /home/seruelas/.ansible/tmp/ansible-tmp-1709519152.3666363-3871-223981424040732/AnsiballZ_setup.py'
+2024-03-04T10:25:57.843273+08:00 ControlNode sudo: seruelas : TTY=pts/1 ; PWD=/home/seruelas ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-oahfwwkkkegunuvkprwtccvandkzwoin ; /usr/bin/python3 /home/seruelas/.ansible/tmp/ansible-tmp-1709519157.5486238-3891-104862734255584/AnsiballZ_setup.py'
+2024-03-04T10:25:57.843849+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by seruelas(uid=1000)
+2024-03-04T10:25:58.553347+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T10:25:58.780401+08:00 ControlNode sudo: seruelas : TTY=pts/1 ; PWD=/home/seruelas ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-uapbzdiibrnufsymbhumrkpsqmmxuutj ; /usr/bin/python3 /home/seruelas/.ansible/tmp/ansible-tmp-1709519158.5710263-3902-202905462952582/AnsiballZ_apt.py'
+2024-03-04T10:25:58.780943+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by seruelas(uid=1000)
+2024-03-04T10:26:00.718718+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T10:26:00.954631+08:00 ControlNode sudo: seruelas : TTY=pts/1 ; PWD=/home/seruelas ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-hbnepckafmmijioaqnlyuuncixmslizs ; /usr/bin/python3 /home/seruelas/.ansible/tmp/ansible-tmp-1709519160.7626355-3911-215249979773258/AnsiballZ_slurp.py'
+2024-03-04T10:26:00.954888+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by seruelas(uid=1000)
+2024-03-04T10:26:01.174388+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T10:26:01.311412+08:00 ControlNode sudo: seruelas : TTY=pts/1 ; PWD=/home/seruelas ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-afcffkhrghkobwvinjaimjjqfxbaxstc ; /usr/bin/python3 /home/seruelas/.ansible/tmp/ansible-tmp-1709519161.1665008-3911-230701886858954/AnsiballZ_slurp.py'
+2024-03-04T10:26:01.312114+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by seruelas(uid=1000)
